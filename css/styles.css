@@ -11,7 +11,7 @@ body {
   display: grid;
   grid-template-columns: 2fr 1fr;
   height: 50px;
-  background-image: url("../images/background2.jpg");
+  background-image: url("../images/background2.png");
   background-attachment: fixed; }
   .visibleNav h1 {
     line-height: 50px;
@@ -74,7 +74,7 @@ nav {
 
 .socialLinks {
   height: 50px;
-  background-image: url("../images/background2.jpg");
+  background-image: url("../images/background2.png");
   background-attachment: fixed;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -96,7 +96,7 @@ nav {
 .experience h1 {
   padding: 10px;
   text-align: center;
-  background-image: url("../images/background2.jpg");
+  background-image: url("../images/background2.png");
   background-attachment: fixed;
   color: white; }
 .experience ul {
@@ -111,7 +111,7 @@ nav {
 .education h1 {
   padding: 10px;
   text-align: center;
-  background-image: url("../images/background2.jpg");
+  background-image: url("../images/background2.png");
   background-attachment: fixed;
   color: white; }
 .education ul {
@@ -124,7 +124,7 @@ nav {
 .skills h1 {
   padding: 10px;
   text-align: center;
-  background-image: url("../images/background2.jpg");
+  background-image: url("../images/background2.png");
   background-attachment: fixed;
   color: white; }
 .skills .skillsContainer {
@@ -134,7 +134,7 @@ nav {
     font-size: 20px;
     border-radius: 5px 0 0 5px;
     text-align: center;
-    background-image: url("../images/background2.jpg");
+    background-image: url("../images/background2.png");
     background-attachment: fixed;
     color: white;
     margin-bottom: 20px;
@@ -144,7 +144,7 @@ nav {
     font-size: 20px;
     border-radius: 5px 0 0 5px;
     text-align: center;
-    background-image: url("../images/background2.jpg");
+    background-image: url("../images/background2.png");
     background-attachment: fixed;
     color: white;
     margin-bottom: 20px;
@@ -154,7 +154,7 @@ nav {
     font-size: 20px;
     border-radius: 5px 0 0 5px;
     text-align: center;
-    background-image: url("../images/background2.jpg");
+    background-image: url("../images/background2.png");
     background-attachment: fixed;
     color: white;
     margin-bottom: 20px;
@@ -164,7 +164,7 @@ nav {
     font-size: 20px;
     border-radius: 5px 0 0 5px;
     text-align: center;
-    background-image: url("../images/background2.jpg");
+    background-image: url("../images/background2.png");
     background-attachment: fixed;
     color: white;
     margin-bottom: 20px;
@@ -174,7 +174,7 @@ nav {
     font-size: 20px;
     border-radius: 5px 0 0 5px;
     text-align: center;
-    background-image: url("../images/background2.jpg");
+    background-image: url("../images/background2.png");
     background-attachment: fixed;
     color: white;
     margin-bottom: 20px;
@@ -184,7 +184,7 @@ nav {
     font-size: 20px;
     border-radius: 5px 0 0 5px;
     text-align: center;
-    background-image: url("../images/background2.jpg");
+    background-image: url("../images/background2.png");
     background-attachment: fixed;
     color: white;
     margin-bottom: 20px;
@@ -193,7 +193,7 @@ nav {
 .portfolio h1 {
   padding: 10px;
   text-align: center;
-  background-image: url("../images/background2.jpg");
+  background-image: url("../images/background2.png");
   background-attachment: fixed;
   color: white; }
 .portfolio img {
@@ -204,7 +204,7 @@ nav {
 footer {
   text-align: center;
   padding: 5px;
-  background-image: url("../images/background2.jpg");
+  background-image: url("../images/background2.png");
   background-attachment: fixed;
   color: white; }
 
@@ -212,7 +212,7 @@ footer {
   nav ul {
     display: grid;
     grid-template-columns: 2fr 4fr;
-    background-image: url("../images/background2.jpg");
+    background-image: url("../images/background2.png");
     background-attachment: fixed; }
 
   .visibleNav {
@@ -221,7 +221,7 @@ footer {
   .navLinks {
     float: right;
     position: relative;
-    background-image: url("../images/background2.jpg");
+    background-image: url("../images/background2.png");
     background-attachment: fixed;
     height: 50px; }
     .navLinks li {
@@ -236,7 +236,7 @@ footer {
     margin: 0 auto;
     padding: 5%;
     padding-bottom: 0;
-    background-image: url("../images/background2.jpg");
+    background-image: url("../images/background2.png");
     background-attachment: fixed; }
     .background .header {
       background-color: white;
@@ -283,7 +283,7 @@ footer {
   .portfolio h1 {
     padding: 10px;
     text-align: center;
-    background-image: url("../images/background2.jpg");
+    background-image: url("../images/background2.png");
     background-attachment: fixed;
     color: white; }
   .portfolio img {
@@ -295,7 +295,7 @@ footer {
   nav ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-image: url("../images/background2.jpg");
+    background-image: url("../images/background2.png");
     background-attachment: fixed; }
 
   .visibleNav {
@@ -307,7 +307,7 @@ footer {
     float: right;
     position: relative;
     display: inline;
-    background-image: url("../images/background2.jpg");
+    background-image: url("../images/background2.png");
     background-attachment: fixed;
     height: 50px; }
     .navLinks li {
@@ -341,7 +341,7 @@ footer {
   .portfolio h1 {
     padding: 10px;
     text-align: center;
-    background-image: url("../images/background2.jpg");
+    background-image: url("../images/background2.png");
     background-attachment: fixed;
     color: white; }
   .portfolio img {
