@@ -211,23 +211,25 @@ footer {
 @media screen and (min-width: 780px) {
   nav ul {
     display: grid;
-    grid-template-columns: 2fr 4fr;
+    grid-template-columns: 4fr 4fr;
     background-image: url("../images/background2.png");
     background-attachment: fixed; }
 
   .visibleNav {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
     float: left; }
 
   .navLinks {
     float: right;
     position: relative;
+    display: inline;
     background-image: url("../images/background2.png");
     background-attachment: fixed;
     height: 50px; }
     .navLinks li {
       display: inline;
-      line-height: 50px;
-      margin: 10px; }
+      line-height: 50px; }
       .navLinks li a {
         color: white; }
 
@@ -312,6 +314,7 @@ footer {
     height: 50px; }
     .navLinks li {
       display: inline;
+      margin-right: 30px;
       line-height: 50px; }
       .navLinks li a {
         color: white; }
@@ -320,6 +323,8 @@ footer {
     width: 70%;
     display: grid;
     grid-template-columns: 1fr 1.5fr; }
+    .background .header .mainInfo {
+      padding: 20px; }
     .background .header img {
       width: 340px; }
 

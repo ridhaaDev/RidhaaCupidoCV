@@ -18,7 +18,7 @@ $standardBorder: 1px solid black;
   grid-template-columns: 2fr 1fr;
   height: 50px;
   background-image: url("../images/background2.png");
-    background-attachment: fixed;
+  background-attachment: fixed;
   h1 {
     line-height: 50px;
     text-align: right;
@@ -96,7 +96,7 @@ nav {
 .socialLinks {
   height: 50px; // border: $standardBorder;
   // background: linear-gradient(to right, black, blue, #cc0066, #ff00ff);
- background-image: url("../images/background2.png");
+  background-image: url("../images/background2.png");
   background-attachment: fixed;
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
@@ -210,17 +210,17 @@ nav {
 }
 
 // Portfolio
-  .portfolio{
-    h1{
-      @include heading;
-    }
-    img{
-      width: 100%;
-    }
-    .portfolioSection{
-      display: block;
-    }
+.portfolio{
+  h1{
+    @include heading;
   }
+  img{
+    width: 100%;
+  }
+  .portfolioSection{
+    display: block;
+  }
+}
 
 
 footer {
@@ -235,23 +235,26 @@ footer {
 @media screen and (min-width: 780px) {
   nav ul {
     display: grid;
-    grid-template-columns: 2fr 4fr;
+    grid-template-columns: 4fr 4fr;
     background-image: url("../images/background2.png");
     background-attachment: fixed;
   }
   .visibleNav {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
     float: left;
   }
   .navLinks {
     float: right;
     position: relative;
+    display: inline;
+
     background-image: url("../images/background2.png");
     background-attachment: fixed;
     height: 50px;
     li {
       display: inline;
       line-height: 50px;
-      margin: 10px;
       a {
         color: white;
       }
@@ -350,11 +353,13 @@ footer {
     float: right;
     position: relative;
     display: inline;
+
     background-image: url("../images/background2.png");
     background-attachment: fixed;
     height: 50px;
     li {
       display: inline;
+       margin-right: 30px;
       line-height: 50px;
       a {
         color: white;
@@ -366,7 +371,10 @@ footer {
       width: 70%;
       display: grid;
       grid-template-columns: 1fr 1.5fr;
-      .mainInfo {}
+      .mainInfo {
+        padding: 20px;
+
+      }
       img {
         width: 340px;
       }
@@ -407,7 +415,7 @@ footer {
     }
   }
   .background {
-   
+
     .header {
       .mainInfo {
         width: 80%;
@@ -436,3 +444,5 @@ footer {
     }
   }
 }
+
+
