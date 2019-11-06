@@ -10,9 +10,7 @@ $standardBorder: 1px solid black;
   color: #4d4d4d;
 }
 
-
-
-
+// Navigation
 .visibleNav {
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -56,6 +54,13 @@ nav {
       color: white;
       font-size: 20px;
     }
+  }
+}
+
+// Make hamburger disappear on larger sites
+@media screen and (min-width: 780px) {
+  #icon {
+    display: none;
   }
 }
 

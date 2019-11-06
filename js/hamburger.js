@@ -2,13 +2,14 @@ $(document).ready(function(){
 
 	if (screen.width >= 780) {
 		console.log("Worked");
-		document.getElementById("icon").setAttribute("class", "fas fa-times");
+		document.getElementById("icon").setAttribute("display", "none");
 	} else {
-		document.getElementById("icon").setAttribute("class", "fas fa-bars");
+		document.getElementById("icon").setAttribute("class", "fas fa-times");
 
 		$(".navLinks li a").click(function(){
 			$(".navLinks").toggle(1000);
 			document.getElementById("icon").setAttribute("class", "fas fa-bars");
+
 		});
 	}
 
